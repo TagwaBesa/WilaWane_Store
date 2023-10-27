@@ -1,13 +1,4 @@
-/**
 
-*/
-
-/**
-* Check out variables.css for easy customization of colors, typography, and other repetitive properties
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
 }
@@ -226,7 +217,7 @@ section {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: color-links: #fc32c3;
   font-family: var(--font-secondary);
 }
 
@@ -332,7 +323,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-primary);
+    color: #fc32c3;
   }
 
   .navbar .dropdown a:hover:before,
@@ -346,7 +337,7 @@ section {
   .navbar .dropdown .active:focus,
   .navbar .dropdown:hover>a {
     color: var(--color-white);
-    background: var(--color-secondary);
+    background: #fc32c3;
   }
 
   .navbar .dropdown ul {
@@ -367,7 +358,7 @@ section {
     min-width: 200px;
   }
 
-  .navbar .dropdown ul a {
+  .navbar .dropdown ul a {btn-getstarted 
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
@@ -384,7 +375,7 @@ section {
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
     color: var(--color-white);
-    background: var(--color-primary);
+    background: #fc32c3;
   }
 
   .navbar .dropdown:hover>ul {
@@ -416,7 +407,7 @@ section {
   .navbar .megamenu ul li .active,
   .navbar .megamenu ul li .active:hover {
     color: var(--color-white);
-    background: var(--color-primary);
+    background: #fc32c3;
   }
 
   .navbar .dropdown .dropdown ul {
@@ -1062,6 +1053,7 @@ section {
   transition: all ease-in-out 0.4s;
   background: var(--color-white);
   height: 100%;
+  align-items: center;
 }
 
 .featured-services .service-item .icon {
@@ -1910,7 +1902,7 @@ section {
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color:   rgb(245, 9, 182);
   border-bottom: 0;
   box-shadow: none;
 }
@@ -1920,7 +1912,7 @@ section {
   top: 14px;
   left: 25px;
   font-size: 20px;
-  color: var(--color-primary);
+  color:  rgb(245, 9, 182);
 }
 
 .faq .accordion-button:after {
@@ -1936,7 +1928,7 @@ section {
   border-radius: 5px;
   background: var(--color-white);
   box-shadow: none;
-  color: rgb(245, 9, 182);
+  color: rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
